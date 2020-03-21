@@ -216,7 +216,17 @@
         </table>
     </div>
     <div id="Button">
-        <button type="button" onclick="alert('Learn how to give might')">Test
-        </button>
+        <input type="file" id="browse" name="fileupload" style="display: none" onChange="Handlechange();"/>
+        <input type="hidden" id="filename" readonly="true"/>
+        <input type="button" value="Yoga Private Uploader" id="fakeBrowse" onclick="HandleBrowseClick();"/>
+    <script>
+        function HandleBrowseClick()
+        { var fileinput = document.getElementById("browse");fileinput.click();
+    }
+        function Handlechange()
+    {   var fileinput = document.getElementById("browse");
+        var textinput = document.getElementById("filename");textinput.value = fileinput.value;
+    }
+</script>
     </div>
 </body>
