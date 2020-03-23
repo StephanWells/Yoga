@@ -43,8 +43,8 @@ public class Defs
     }
 
     /**
-     * Changes in combat state. It uses src_agent and dst_agent, where srcAgent is usually the state or agent
-     * associated with a change, and dstAgent is the state after the change or value associated with a change.
+     * Changes in combat state. It uses src_agent and dst_agent, where srcAgent is usually the agent that caused
+     * an event, and dstAgent is the agent the event happened to.
      * */
     public enum CombatStateChange
     {

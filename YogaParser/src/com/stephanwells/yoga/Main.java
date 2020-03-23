@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main
 {
-    public static final String TEST_EVTC_PATH = "test.evtc";
+    public static final String TEST_EVTC_PATH = "txt/test.evtc";
     public static final int BUFFER_SIZE = 64;
 
     public static void main(String[] args)
